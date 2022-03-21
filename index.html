@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
+</head>
+<body>
+    <div class="content">
+        <div class="picture">
+            <div class="logo">
+                <img src="./Insurance.png" alt="logo" class="whale"> 
+                <h1 class="sig">WikiInsurance</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="dummy-text left">
+                <p>Sign up</p>
+                <p class="remote-text"><em>OFFER EXPIRES IN 6 HOURS</em></p>
+            </div>
+            <form action="#">
+                <div class="form left">
+                    <p class="form-title">DO IT RIGHT NOW!</p>
+                    <div class="layer">
+                        <div class="input">
+                            <label for="first-name">Name</label>
+                            <input type="text" name="name" id="first-name" required>
+                        </div>
+                        
+                        
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" name="passwor" id="passwor" required>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="left button"><button type="submit">Book Now</button></div>
+            </form>
+            
+        </div>
+
+    </div>
+
+    <script>
+        var originalvalue = document.getElementById("name").value;
+        console.log(originalvalue);
+        originalvalue = document.getElementById("email").value;
+        console.log(originalvalue);
+        originalvalue = document.getElementById("passwor").value;
+        console.log(originalvalue);
+     </script>
+</body>
+</html>
